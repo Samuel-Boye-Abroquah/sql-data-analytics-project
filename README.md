@@ -28,7 +28,7 @@ This project is intentionally scoped to **analysis only**. The data itself — t
 | `06_performance_analysis.sql` | Year-over-year product performance vs. historical average |
 | `07_part_to_whole_analysis.sql` | Revenue share by category, country, and customer gender |
 | `08_data_segmentation_analysis.sql` | Product cost-range segments; customer VIP/Regular/New segments |
-| `09_performance_view.sql` | vw_product_performance_analysis;vw_customer_performance_analysis;report_sales_monthly |
+| `09_performance_view.sql` | vw_product_performance_analysis; vw_customer_performance_analysis; report_sales_monthly |
 
 ---
 
