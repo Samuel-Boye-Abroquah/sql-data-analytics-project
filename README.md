@@ -1,1 +1,50 @@
-## sql-data-analytics-project
+# SQL Data Analytics Project
+
+Business analytics built entirely in SQL on top of a clean, governed star schema (`dim_customers`, `dim_products`, `fact_sales`) — exploratory analysis, magnitude and ranking breakdowns, time-based trends, cumulative growth, year-over-year performance, part-to-whole proportions, and customer/product segmentation.
+
+This project is intentionally scoped to **analysis only**. The data itself — the cleaning, validation, and dimensional modeling that makes this analysis possible — lives in a separate, standalone project:
+
+**➡ [sql-data-warehouse-project](https://github.com/Samuel-Boye-Abroquah/sql-data-warehouse-project)** — the full Bronze → Silver → Gold pipeline, from raw CRM/ERP source files through to the validated Gold-layer tables used here.
+
+---
+
+## Process Flow
+
+![Data Flow: Source to Gold Layer](https://github.com/Samuel-Boye-Abroquah/sql-data-warehouse-project/blob/main/documents/data_flow_bronze_silver_gold.png)
+
+*(Full architecture and data quality documentation: see the [Data Warehousing project](https://github.com/Samuel-Boye-Abroquah/sql-data-warehouse-project).)*
+
+---
+
+## What's in this project
+
+| File | Covers |
+|---|---|
+| `01_exploratory_data_analysis.sql` | Date ranges, customer demographics, distinct value checks |
+| `02_magnitude_analysis.sql` | Headline totals and breakdowns by country, gender, category |
+| `03_ranking_analysis.sql` | Top/bottom products and customers by revenue and order count |
+| `04_change_over_time_analysis.sql` | Yearly and monthly sales trends |
+| `05_cumulative_analysis.sql` | Running total of sales over time |
+| `06_performance_analysis.sql` | Year-over-year product performance vs. historical average |
+| `07_part_to_whole_analysis.sql` | Revenue share by category, country, and customer gender |
+| `08_data_segmentation_analysis.sql` | Product cost-range segments; customer VIP/Regular/New segments |
+
+---
+
+## Prerequisite
+
+This project queries three tables directly — `dim_customers`, `dim_products`, `fact_sales` — plus two reporting views, `report_customers` and `report_sales_monthly`. All five are built by the [Data Warehousing project](https://github.com/Samuel-Boye-Abroquah/sql-data-warehouse-project); run that project's setup first, then run any script here against the resulting database.
+
+---
+
+## Tools
+
+SQL (MySQL 8) — CTEs, window functions (`LAG`, `SUM() OVER`, `AVG() OVER`), aggregate and analytical functions.
+
+---
+
+## About
+
+Built by **Samuel Boye Abroquah** — Quality Assurance & Data Analytics professional.
+
+[LinkedIn](https://linkedin.com/in/Samuel-Boye-Abroquah) · [Data Warehousing project](https://github.com/Samuel-Boye-Abroquah/sql-data-warehouse-project)
