@@ -1,4 +1,3 @@
-# sql-data-analytics-project
 # SQL Data Analytics Project
 
 A comprehensive collection of SQL scripts focused on data exploration, analytics, and business reporting. This project demonstrates how SQL can be used to transform raw data into actionable insights through exploratory analysis, KPI development, customer and product segmentation, trend analysis, and performance reporting.
