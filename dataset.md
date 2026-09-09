@@ -30,7 +30,5 @@ Key assets include:
 - dim_customers
 - dim_products
 - fact_sales
-- vw_customer_performance_analysis
-- vw_product_performance_analysis
 
 This layered architecture demonstrates ETL development, data modeling, data quality management, and analytical reporting best practices commonly used in modern data warehousing solutions.
