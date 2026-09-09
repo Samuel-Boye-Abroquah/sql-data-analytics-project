@@ -59,7 +59,13 @@ Key assets include:
 - dim_customers
 - dim_products
 - fact_sales
-- vw_customer_performance_analysis
-- vw_product_performance_analysis
 
 This layered architecture demonstrates ETL development, data modeling, data quality management, and analytical reporting best practices commonly used in modern data warehousing solutions.
+
+## About
+
+Built by **Samuel Boye Abroquah** — Quality Assurance & Data Analytics professional, applying 12+ years of process-validation discipline to data engineering.
+
+   [LinkedIn](https://linkedin.com/in/Samuel-Boye-Abroquah)
+   [GitHub](https://github.com/Samuel-Boye-Abroquah)
+  
