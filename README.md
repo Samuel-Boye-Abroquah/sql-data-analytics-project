@@ -57,6 +57,7 @@ Full result sets are in the individual SQL files.
 
 ## About
 
-Built by **Samuel Boye Abroquah** — Quality Assurance & Data Analytics professional.
+Built by **Samuel Boye Abroquah** — Quality Assurance Technician and Data Analytics Professional applying 12+ years of process-validation discipline to data engineering, business intelligence, and analytical system design.
+
 
 [LinkedIn](https://linkedin.com/in/Samuel-Boye-Abroquah) · [Data Warehousing project](https://github.com/Samuel-Boye-Abroquah/sql-data-warehouse-project)
