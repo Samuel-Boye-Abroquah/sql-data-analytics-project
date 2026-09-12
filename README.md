@@ -52,7 +52,7 @@ A few outputs from the analysis suite, so you can see what the queries produce:
 - **Highest-value segment** — VIP customers (~X% of base) contribute ~X% of revenue
 - **Fastest-growing year** — [year] showed the largest YoY sales increase at ~X%
 
-Full result sets are in the individual SQL files.
+**Full result sets are in the individual SQL files.**
 ---
 
 ## About
