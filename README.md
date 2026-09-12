@@ -43,6 +43,17 @@ This project queries three view directly — `dim_customers`, `dim_products`, `f
 SQL (MySQL 8) — CTEs, window functions (`LAG`, `SUM() OVER`, `AVG() OVER`), aggregate and analytical functions.
 
 ---
+## 📊 Sample Findings
+
+A few outputs from the analysis suite, so you can see what the queries produce:
+
+- **Top-selling product** — [product name] generated ~$X in revenue
+- **Most concentrated category** — [category] accounts for ~X% of total revenue
+- **Highest-value segment** — VIP customers (~X% of base) contribute ~X% of revenue
+- **Fastest-growing year** — [year] showed the largest YoY sales increase at ~X%
+
+Full result sets are in the individual SQL files.
+---
 
 ## About
 
